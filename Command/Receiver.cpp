@@ -1,0 +1,10 @@
+#include <iostream>
+#include <string>
+#include "Receiver.hpp"  
+	
+void Receiver::DoSomething(const std::string &a) {
+    std::cout << "Receiver: Working on (" << a << ".)\n";
+}
+void Receiver::DoSomethingElse(const std::string &b) {
+    std::cout << "Receiver: Also working on (" << b << ".)\n";
+}
